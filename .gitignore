@@ -1,0 +1,285 @@
+# ============================================================
+#  .gitignore — Python · VSCode · Windows · Linux · General
+# ============================================================
+
+
+# ───────────────────────────────────────────
+#  PYTHON
+# ───────────────────────────────────────────
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+.python-version
+
+# Poetry / Pipenv / PDM
+poetry.lock
+Pipfile.lock
+.pdm.toml
+__pypackages__/
+
+# mypy / pyright / ruff cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+.ruff_cache/
+
+# Pyre type checker
+.pyre/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject.db
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# Profiling
+*.prof
+
+
+# ───────────────────────────────────────────
+#  VISUAL STUDIO CODE
+# ───────────────────────────────────────────
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local workspace history
+.history/
+*.vsix
+
+# Local settings overrides (keep extensions list, ignore personal settings)
+.vscode/settings.json
+
+
+# ───────────────────────────────────────────
+#  WINDOWS
+# ───────────────────────────────────────────
+
+# Thumbnails
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config / metadata
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Shortcuts & shell stuff
+*.lnk
+*.url
+
+# Windows image file caches
+*.stackdump
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows EZA / zone identifier
+*.Zone.Identifier
+
+
+# ───────────────────────────────────────────
+#  LINUX
+# ───────────────────────────────────────────
+
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ───────────────────────────────────────────
+#  macOS (bonus — por si acaso)
+# ───────────────────────────────────────────
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+# ───────────────────────────────────────────
+#  ARCHIVOS BASURA GENERALES
+# ───────────────────────────────────────────
+
+# Logs
+*.log
+*.log.*
+logs/
+log/
+
+# Temporales del sistema
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.old
+
+# Archivos de backup de editores
+*~
+\#*\#
+.\#*
+
+# Comprimidos generados localmente
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# Binarios / ejecutables compilados
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.o
+*.a
+
+# Archivos de bases de datos locales
+*.sqlite
+*.sqlite3
+*.db
+
+# Secretos y configuración sensible
+.env
+.env.*
+!.env.example
+!.env.template
+secrets.json
+secrets.yaml
+secrets.yml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Notas personales
+TODO.md
+NOTES.md
+notes.txt
+scratch.*
