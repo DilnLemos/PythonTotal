@@ -1,5 +1,5 @@
 # Modo Lectura
-"""archivo = open("Dia#6/texto.txt", "r")
+archivo = open("Dia#6/texto.txt", "r")
 
 #Intento de Escritura
 try:
@@ -7,7 +7,7 @@ try:
 except Exception as e:
     print(f"Error: {e}")
 finally:
-    archivo.close()"""
+    archivo.close()
 
 "----------------------------------------------------------------------------------------------------"
 
