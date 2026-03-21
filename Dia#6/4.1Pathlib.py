@@ -5,6 +5,7 @@ from pathlib import Path, PureWindowsPath
 ### Creación de rutas
 ruta = Path("/home/dilnlemos/Programación/Python/PythonTotal/Dia#6/prueba.txt")
 print(ruta.read_text()) # salida: Hola Mundo, sin necesidad del open o close
+ruta.write("Hola Mundo") # Crea el archivo con el texto indicado, si el archivo ya existe lo sobreescribe
 
 "-----------------------------------------------------------------------------"
 ### Extracción del Nombre
