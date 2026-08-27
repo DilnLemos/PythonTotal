@@ -17,3 +17,10 @@ print(next(y))
 print(next(y))
 print(next(y))
 print(next(y))
+
+"""
+1
+2
+4
+7
+"""
